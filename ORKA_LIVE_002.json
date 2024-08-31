@@ -14,7 +14,7 @@
         "body": {
             "background": {
                 "type": "html",
-                "url": "https://orka.fitness/sign_in_fasttrack?native=yes",
+                "url": "https://orkai.com/sign_in_fasttrack",
                 "style": {
                     "background": "#000000",
                     "progress" : "rgba(255,255,255,0.15)"
