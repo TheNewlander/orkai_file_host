@@ -1,0 +1,28 @@
+{
+    "$jason": {
+        "head": {
+            "title": "Web Container Agent",
+            "actions": {
+                "open_external_browser": {
+                    "type": "javascript",
+                    "options": {
+                        "script": "window.open($jason.url, '_system')"
+                    }
+                }
+            }
+        },
+        "body": {
+            "background": {
+                "type": "html",
+                "url": "https://orkai.com/sign_in_fasttrack",
+                "style": {
+                    "background": "#000000",
+                    "progress" : "rgba(255,255,255,0.5)"
+                },
+                "action": {
+                    "trigger": "open_external_browser"
+                }
+            }
+        }
+    }
+}
